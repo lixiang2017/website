@@ -179,7 +179,7 @@ For example, on a system where the default page size is 4KiB, you could specify 
 total of 80 MiB), that allocation fails.
 -->
 例如，在默认页面大小为 4KiB 的系统上，你可以指定限制 `hugepages-2Mi: 80Mi`。
-如果容器尝试分配 40 个 2MiB 大小的巨页（总共 80MiB ），则分配请求会失败。
+如果容器尝试分配 45 个 2MiB 大小的巨页（总共 90MiB ），则分配请求会失败。
 
 {{< note >}}
 <!--
